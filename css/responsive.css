@@ -31,4 +31,14 @@
     .fa-brands{
         font-size: 30px;
     }
+    /* banner section ends here */
+    /* card section starts here */
+    .grid-container{
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (min-width: 401px) and (max-width:800px) {
+    .grid-container{
+        grid-template-columns: repeat(2,1fr);
+    }
 }
