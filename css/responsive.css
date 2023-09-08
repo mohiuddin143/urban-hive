@@ -36,6 +36,12 @@
     .grid-container{
         grid-template-columns: 1fr;
     }
+    .discount-container{
+        flex-direction: column;
+    }
+    .discount-img, .discount-text{
+        width: 100%;
+    }
 }
 @media screen and (min-width: 401px) and (max-width:800px) {
     .grid-container{

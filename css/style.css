@@ -149,3 +149,45 @@ nav {
     color: white;
 }
 /* products section ends here */
+/* discount section start here */
+.discount-section{
+    background-color: #9376e0;
+    min-height: 500px;
+    padding: 20px 0;
+    margin: 50px auto;
+}
+.discount-container{
+    max-width: 1400px;
+    margin: 0 auto;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+}
+.discount-img{
+    width: 50%;
+    position: relative;
+}
+.discount-img img{
+    width: 70%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.discount-text{
+    width: 50%;
+}
+.discount-number{
+    color: black;
+    background-color: rgba(255, 255, 0, 0.726);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5%;
+    left: 70%;
+
+}
